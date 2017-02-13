@@ -2,14 +2,12 @@
 
 This repository is used to track all issues for SIFT.
 
-## Important
+## Important 
 
-If you have not run the bootstrap script since August 15th, 2015, you will need to re-run it to update. The update script will **not** work. There was a change to how plaso is packaged and its required dependencies. `binplist` must be removed before running the update-script or re-run the bootstrap script to fix.
+SIFT is moving to using `Salt` for configuration management of the SIFT VM. This is being coordinated with a similar effort for REMnux so that the two distributions will be compatible and not conflict with each other.
 
-## Documentation
+If you are interested in contributing or testing out this new installation method, please visit the [sift-salt](https://github.com/sans-dfir/sift-saltstack) repository.
 
-Read the documentation at https://sift.readthedocs.org, you can contribute to the repository at https://github.com/sans-dfir/sift-docs
+## Legacy Install and Update Method
 
-## Bootstrap Script
-
-If you'd like a working copy of the SIFT workstation, see the https://github.com/sans-dfir/sift-bootstrap for how to install.
+Currently the old method of install and update via a bash script is still available https://github.com/sans-dfir/sift-bootstrap.
