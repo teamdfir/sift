@@ -16,9 +16,9 @@ Currently the old method of install and update via a bash script is still availa
 
 These are somewhat in order by priority.
 
-* [ ] Use Saltstack to build and perform updates to any SIFT installation (https://github.com/sans-dfir/sift-saltstack)
+* [ ] (https://github.com/sans-dfir/sift/issues/114) Use Saltstack to build and perform updates to any SIFT installation (https://github.com/sans-dfir/sift-saltstack) 
   * [ ] Be compatible with the REMnux installation (a similar effort is happening to make it use Saltstack (https://github.com/remnux/salt-states)
-* [ ] Use Packer to build VMWare/Virtualbox/Cloud images using the [salt states](https://github.com/sans-dfir/sift-saltstack)
+* [ ] (https://github.com/sans-dfir/sift/issues/116) Use Packer to build VMWare/Virtualbox/Cloud images using the [salt states](https://github.com/sans-dfir/sift-saltstack)
 * [ ] Use CI provider to do tests
   * [ ] Each salt state should be testable and cross dependencies should be setup appropriately
   * [ ] Each salt state should include application specific testing (where possible) (ie. volatility)
