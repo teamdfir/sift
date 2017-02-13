@@ -11,3 +11,16 @@ If you are interested in contributing or testing out this new installation metho
 ## Legacy Install and Update Method
 
 Currently the old method of install and update via a bash script is still available https://github.com/sans-dfir/sift-bootstrap.
+
+## Roadmap
+
+These are somewhat in order by priority.
+
+* [ ] Use Saltstack to build and perform updates to any SIFT installation (https://github.com/sans-dfir/sift-saltstack)
+  * [ ] Be compatible with the REMnux installation (a similar effort is happening to make it use Saltstack (https://github.com/remnux/salt-states)
+* [ ] Use Packer to build VMWare/Virtualbox/Cloud images using the [salt states](https://github.com/sans-dfir/sift-saltstack)
+* [ ] Use CI provider to do tests
+  * [ ] Each salt state should be testable and cross dependencies should be setup appropriately
+  * [ ] Each salt state should include application specific testing (where possible) (ie. volatility)
+* [ ] VMs should be published at least weekly
+* [ ] Build CLI tool to download, verify, and run salt states on VM (@ekristen is building a prototype right now that will use GitHub releases and signatures to verify salt state downloads for both SIFT and REMnux)
