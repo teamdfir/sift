@@ -23,4 +23,4 @@ These are somewhat in order by priority.
   * [x] Each salt state should be testable and cross dependencies should be setup appropriately
   * [ ] Each salt state should include application specific testing (where possible) (ie. volatility)
 * [ ] VMs should be published at least weekly
-* [ ] Build CLI tool to download, verify, and run salt states on VM (@ekristen is building a prototype right now that will use GitHub releases and signatures to verify salt state downloads for both SIFT and REMnux)
+* [x] Build CLI tool to download, verify, and run salt states on VM (@ekristen is building a prototype right now that will use GitHub releases and signatures to verify salt state downloads for both SIFT and REMnux)
