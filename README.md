@@ -1,4 +1,4 @@
-# SANS Investigative Forensic Toolkit (SIFT)
+[![Logo](https://digital-forensics.sans.org/images/sift.png)
 
 This repository is used to track all issues for SIFT. 
 
