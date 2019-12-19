@@ -17,8 +17,8 @@ This method is no longer supported. The [repository](https://github.com/sans-dfi
 ## Roadmap
 
 * [ ] VMs should be published at least monthly (or more frequently)
-* [ ] Be compatible with the REMnux installation (a similar effort is happening to make it use Saltstack (https://github.com/remnux/salt-states)
-* [ ] Use Packer to build VMWare/Virtualbox/Cloud images using the [salt states](https://github.com/sans-dfir/sift-saltstack) https://github.com/sans-dfir/sift/issues/116
+* [x] Be compatible with the REMnux installation (a similar effort is happening to make it use Saltstack (https://github.com/remnux/salt-states)
+* [x] Use Packer to build VMWare/Virtualbox/Cloud images using the [salt states](https://github.com/sans-dfir/sift-saltstack) https://github.com/sans-dfir/sift/issues/116
 * [x] Use CI provider to do tests
   * [x] Each salt state should be testable and cross dependencies should be setup appropriately
   * [ ] Each salt state should include application specific testing (where possible) (ie. volatility)
