@@ -1,3 +1,5 @@
+**Note: As of January 2020, new installs of SIFT on 16.04 is currently broken due to the removal of Plaso's builds for 16.04. Please use 18.04 if possible.**
+
 ![Logo](https://digital-forensics.sans.org/images/sift.png)
 
 This repository is used to track all issues for SIFT. 
