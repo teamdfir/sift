@@ -1,6 +1,6 @@
-![Logo](https://digital-forensics.sans.org/images/sift.png)
+![Logo](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt3e371eacc79a3ca4/60a5393fe2db156d00f0b8ab/400x460_DFIR_SIFT.jpg)
 
-This repository is used to track all issues for SIFT. 
+This repository is used to track all issues for SIFT.
 
 ## Supported Distros
 
