@@ -2,6 +2,21 @@
 
 This repository is used to track all issues for SIFT.
 
+## AWS
+
+These are the latest AMIs build from [sift-packer](https://github.com/sans-dfir/sift-packer)
+
+**Note:** these are headless, as in no GUI, it installs the server variant of SIFT.
+
+Built On: July 15th, 2021
+
+```
+us-east-1: ami-0b631d85f5e19c06f
+us-east-2: ami-0df6f0b50a2b8a141
+us-west-1: ami-06e36872a7ee6a39f
+us-west-2: ami-0392e66bea0682fca
+```
+
 ## Supported Distros
 
 * 18.04 Ubuntu Desktop (only default Gnome Desktop)
