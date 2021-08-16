@@ -19,11 +19,6 @@ us-west-2: ami-0392e66bea0682fca
 
 ## Supported Distros
 
-* 18.04 Ubuntu Desktop (only default Gnome Desktop)
-* 18.04 Ubuntu Server (use --mode=server with the CLI tool)
-
-### Upcoming Support
-
 * 20.04 Ubuntu Desktop 
 * 20.04 Ubuntu Server
 
