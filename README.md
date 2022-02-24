@@ -11,10 +11,15 @@ These are the latest AMIs build from [sift-packer](https://github.com/sans-dfir/
 Built On: July 15th, 2021
 
 ```
-us-east-1: ami-0b631d85f5e19c06f
-us-east-2: ami-0df6f0b50a2b8a141
-us-west-1: ami-06e36872a7ee6a39f
-us-west-2: ami-0392e66bea0682fca
+eu-central-1: ami-05a0bab6291b9188f
+eu-north-1: ami-0cf445b6558d9420c
+eu-west-1: ami-05d7cd2054b0b409e
+eu-west-2: ami-009d2253f3f3a5164
+eu-west-3: ami-005cfa04e2a3546fa
+us-east-1: ami-00f941d8c74d5d31e
+us-east-2: ami-05e80ca4ac6d0aa32
+us-west-1: ami-035b04bdba5e5df40
+us-west-2: ami-0266335bc71fd550a
 ```
 
 ## Supported Distros
