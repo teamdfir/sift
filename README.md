@@ -10,6 +10,8 @@ These are the latest AMIs build from [sift-packer](https://github.com/sans-dfir/
 
 Built On: March 2nd, 2022
 
+**Default User:** `sansforensics`
+
 ```
 ap-northeast-1: ami-00378014d524eee9c
 ap-northeast-2: ami-06408b1c23cad3f8b
