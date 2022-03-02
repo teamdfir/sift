@@ -8,18 +8,23 @@ These are the latest AMIs build from [sift-packer](https://github.com/sans-dfir/
 
 **Note:** these are headless, as in no GUI, it installs the server variant of SIFT.
 
-Built On: July 15th, 2021
+Built On: March 2nd, 2022
 
 ```
-eu-central-1: ami-05a0bab6291b9188f
-eu-north-1: ami-0cf445b6558d9420c
-eu-west-1: ami-05d7cd2054b0b409e
-eu-west-2: ami-009d2253f3f3a5164
-eu-west-3: ami-005cfa04e2a3546fa
-us-east-1: ami-00f941d8c74d5d31e
-us-east-2: ami-05e80ca4ac6d0aa32
-us-west-1: ami-035b04bdba5e5df40
-us-west-2: ami-0266335bc71fd550a
+ap-northeast-1: ami-00378014d524eee9c
+ap-northeast-2: ami-06408b1c23cad3f8b
+ap-northeast-3: ami-0cf5998c0f77e349d
+ap-southeast-1: ami-0db8ec4279e4f27ca
+ap-southeast-2: ami-04c740d52b4a32959
+eu-central-1: ami-06535b5a0f7d99f4c
+eu-north-1: ami-049c42f0a1ea82701
+eu-west-1: ami-01f1035b96448b73b
+eu-west-2: ami-0407016f8aa79ea7c
+eu-west-3: ami-0c444654c3cb65700
+us-east-1: ami-0d52daefbb3dad017
+us-east-2: ami-08faa4091f9e4121d
+us-west-1: ami-0bf84579f13473e79
+us-west-2: ami-0b9d5c33ff8f8ca7d
 ```
 
 ## Supported Distros
