@@ -2,7 +2,12 @@
 
 # SIFT
 
-This repository is used to track all issues for SIFT.
+This is a metadata repository that is primarily used for discussiosn and issue tracking. 
+
+- [cast](https://github.com/ekristen/cast) -- installer cli
+- [saltstack](https://github.com/teamdfir/sift-saltstack) -- states that actually do the work
+- [packer](https://github.com/teamdfir/sift-packer) -- builds machine images using the above tools
+- [package-scripts](https://github.com/teamdfir/package-scripts) -- builds certain packages hosted in [SIFT PPA](https://launchpad.net/~sift)
 
 ## Supported Distros
 
