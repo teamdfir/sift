@@ -4,7 +4,24 @@
 
 This repository is used to track all issues for SIFT.
 
-## AWS
+## Supported Distros
+
+* 20.04 Ubuntu
+* 22.04
+
+## Installation
+
+[Cast](https://github.com/ekristen/cast) is the replacement to the [SIFT CLI](https://github.com/sans-dfir/sift-cli). While the SIFT CLI should continue to work it is officially deprecated as of March 1, 2023 and will no longer be guaranteed to work after that date.
+
+You must first install the CLI tool, then you can install SIFT.
+
+```console
+sudo cast install teamdfir/sift-saltstack
+```
+
+## Cloud Providers
+
+### AWS
 
 These are the latest AMIs build from [sift-packer](https://github.com/sans-dfir/sift-packer)
 
@@ -37,17 +54,3 @@ us-west-1: ami-0bf84579f13473e79
 us-west-2: ami-0b9d5c33ff8f8ca7d
 ```
 
-## Supported Distros
-
-* 20.04 Ubuntu
-* 22.04
-
-## Installation
-
-[Cast](https://github.com/ekristen/cast) is the replacement to the [SIFT CLI](https://github.com/sans-dfir/sift-cli). While the SIFT CLI should continue to work it is officially deprecated as of March 1, 2023 and will no longer be guaranteed to work after that date.
-
-You must first install the CLI tool, then you can install SIFT.
-
-```console
-sudo cast install teamdfir/sift-saltstack
-```
