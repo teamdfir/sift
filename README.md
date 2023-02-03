@@ -6,8 +6,8 @@ This repository is used to track all issues for SIFT.
 
 ## Supported Distros
 
-* 20.04 Ubuntu
-* 22.04
+* 20.04 Ubuntu (Focal)
+* 22.04 Ubuntu (Jammy)
 
 ## Installation
 
