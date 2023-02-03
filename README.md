@@ -1,4 +1,6 @@
-![Logo](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt3e371eacc79a3ca4/60a5393fe2db156d00f0b8ab/400x460_DFIR_SIFT.jpg)
+<img alrigh="right" src="https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt3e371eacc79a3ca4/60a5393fe2db156d00f0b8ab/400x460_DFIR_SIFT.jpg" />
+
+# SIFT
 
 This repository is used to track all issues for SIFT.
 
@@ -7,6 +9,12 @@ This repository is used to track all issues for SIFT.
 These are the latest AMIs build from [sift-packer](https://github.com/sans-dfir/sift-packer)
 
 **Note:** these are headless, as in no GUI, it installs the server variant of SIFT.
+
+### 22.04 Jammy Images
+
+**Coming Soon**
+
+### 20.04 Focal Images
 
 Built On: March 2nd, 2022
 
@@ -31,18 +39,15 @@ us-west-2: ami-0b9d5c33ff8f8ca7d
 
 ## Supported Distros
 
-* 20.04 Ubuntu Desktop 
-* 20.04 Ubuntu Server
-
-### Deprecated / No Longer Supported
-
-* 14.04 Ubuntu
-* 16.04 Ubuntu
+* 20.04 Ubuntu
+* 22.04
 
 ## Installation
 
-The installation and setup process has been streamlined by the release of the [SIFT CLI](https://github.com/sans-dfir/sift-cli). Please follow these [instructions](https://github.com/sans-dfir/sift-cli#installation) to install the CLI tool.
+[Cast](https://github.com/ekristen/cast) is the replacement to the [SIFT CLI](https://github.com/sans-dfir/sift-cli). While the SIFT CLI should continue to work it is officially deprecated as of March 1, 2023 and will no longer be guaranteed to work after that date.
 
-### Manual 
+You must first install the CLI tool, then you can install SIFT.
 
-If you are interested in contributing, testing or installing manually without using the CLI tool, please visit the [sift-salt](https://github.com/sans-dfir/sift-saltstack) repository.
+```console
+sudo cast install teamdfir/sift-saltstack
+```
