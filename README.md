@@ -2,7 +2,7 @@
 
 # SIFT
 
-This is a metadata repository that is primarily used for discussiosn and issue tracking. 
+This is a metadata repository that is primarily used for discussions and issue tracking. 
 
 - [cast](https://github.com/ekristen/cast) -- installer cli
 - [saltstack](https://github.com/teamdfir/sift-saltstack) -- states that actually do the work
