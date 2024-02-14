@@ -34,7 +34,28 @@ These are the latest AMIs build from [sift-packer](https://github.com/sans-dfir/
 
 ### 22.04 Jammy Images
 
-**Coming Soon**
+**Default User:** `sansforensics`
+
+```
+Account ID: 469658012540
+Name: sans-sift-workstation-server-20240214124249
+Regions:
+  - eu-west-1 -> ami-02b8801c5dd864319
+  - ap-southeast-1 -> ami-0a89fcec3f0d654f9
+  - us-west-1 -> ami-0443a8664211c05f0
+  - us-east-2 -> ami-04d0b46b95f792b67
+  - ap-northeast-3 -> ami-049c6d359a6b056cc
+  - eu-north-1 -> ami-00c969795f1510155
+  - ap-northeast-2 -> ami-0d87d93a9fa3793e2
+  - ca-central-1 -> ami-075fc1cf4efb61867
+  - eu-west-3 -> ami-073eaa4931bcd39eb
+  - eu-west-2 -> ami-0c494a1b9f9e341b1
+  - eu-central-1 -> ami-0a50e71994d4ec832
+  - ap-southeast-2 -> ami-0a52aae3e9bb5ff98
+  - us-west-2 -> ami-0a6077f47a38022b7
+  - us-east-1 -> ami-033658932fa06b1e6
+  - ap-northeast-1 -> ami-09176a630354099ad
+```
 
 ### 20.04 Focal Images
 
